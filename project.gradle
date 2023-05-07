@@ -1,1 +1,9 @@
-// Put your project-specific buildscript code in this file
+jar {
+    manifest {
+        attributes (
+            'FMLCorePlugin': 'io.github.legacymoddingmc.notenoughverbosity.NotEnoughVerbosity'
+        )
+    }	
+}
+
+archivesBaseName = "+++" + archivesBaseName
